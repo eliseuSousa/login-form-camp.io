@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --familia-poppins: 'Poppins', sans-serif;
+  --familia-roboto: 'Roboto', sans-serif;
+  --background-container: #191816;
+  --background-formulario: #24221F;
+  --amarelo: #FFC632;
+  --fonte-titulo: #D4CCB6;
+  --fonte-subtitulo: #AFB6C2;
+  --fonte-placeholder: #A9AFB9;
+  --borda-cinza: #868686;
+  --fonte-botao: #473404;
+}
