@@ -1,4 +1,6 @@
 main {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +28,7 @@ fieldset {
   background-color: var(--background-container);
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 50%;
   flex-direction: column;
 }
@@ -218,14 +220,17 @@ strong {
   font-size: 1.4rem;
 }
 
-.container__imagem {
-  width: 50vw;
-  height: 100vh;
+.esquerda {
+  width: 50%;
+  height: 100%;
+}
+
+.container__imagem, .container__imagem img {
+  width: 100%;
+  height: 100%;
 }
 
 .container__imagem img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -245,12 +250,13 @@ strong {
 
   .direita {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: flex-start;
   }
 
   .container__formulario {
     height: auto;
+    width: auto;
     background-color: transparent;
   }
   
